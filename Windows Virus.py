@@ -18,3 +18,5 @@ else:
         os.system(f"ping {ipaddress}")
         os.system(f"ping {ipaddress}")
         os.system(f"ping {ipaddress}")
+        
+  # GLITCH422
