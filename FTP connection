@@ -8,7 +8,7 @@ password = input('Enter password:\t')
 try:
     session = ftplib.FTP()
     session.connect(f'{ip}',21)
-    session.login({username}, {password})
+    session.login(username, password)
     print(f'Login success!\nUsername: {username} , Password: {password}')
     print('=====================================================')
     while True:
