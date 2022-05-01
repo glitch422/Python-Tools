@@ -23,4 +23,4 @@ with open(username, 'r') as user_list:
         except Exception as e:
             print(e)
             
-      # GLITCH422
+ # GLITCH422
