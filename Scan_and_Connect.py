@@ -246,4 +246,4 @@ elif ask == 'Net address':
 else:
     print('Error!')
 
-# Glitch422
+# GLITCH422
