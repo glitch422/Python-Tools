@@ -2,9 +2,9 @@ username = input('Please insert the user name list:\t')
 password = input('Please insert the password:\t')
 ip = input("Please insert the IP address to communication:\t")
 port = 22
-with open(username, 'r') as userlist:
-    for u in passlist:
-        u = ''.join(p.split("\n"))
+with open(username, 'r') as user_list:
+    for u in user_list:
+        u = ''.join(u.split("\n"))
         try:
             ssh_session = paramiko.SSHClient()
             ssh_session.set_missing_host_key_policy(paramiko.AutoAddPolicy)
