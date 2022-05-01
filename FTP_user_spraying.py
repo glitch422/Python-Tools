@@ -64,4 +64,4 @@ with open(username, 'r') as user_list:
         except ftplib.error_perm:
             print(f'Wrong Credentials\n Username:{username} , Password:{p}')
 
-        # GLITCH422
+  # GLITCH422
