@@ -1,6 +1,4 @@
-from scapy.all import *
-from scapy.layers.inet import TCP, IP, sr, ICMP
-from scapy.layers.l2 import ARP, Ether, srp1
+import paramiko
 
 username = input('Please insert the user name list:\t')
 password = input('Please insert the password list:\t')
