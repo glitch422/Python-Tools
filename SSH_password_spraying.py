@@ -1,3 +1,5 @@
+import paramiko
+
 username = input('Please insert the user name:\t')
 password = input('Please insert the password list:\t')
 ip = input("Please insert the IP address to communication:\t")
