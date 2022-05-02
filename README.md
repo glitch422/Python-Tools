@@ -1,7 +1,7 @@
 <!--GLITCH422-->
 
 <h1 align="center">"Hello There,
-       You such a dirt hacker"</h1 align="center">
+       You such a dirty hacker"</h1 align="center">
  
 <h2 align="center">"My name is Glitch422, remember the name.
   Please DO NOT use my scripts to bad uses -> Only for research</h2 align="center">
