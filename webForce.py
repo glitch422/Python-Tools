@@ -7,7 +7,7 @@ with open(email,'r') as userlist:
         u = ''.join(u.split("\n"))
         data_payload = {
         'email': u,
-        'password': p,
+        'password': password,
         'RememberMe': 'false'
         }
         site = requests.post(f'{url}', data=data_payload)
