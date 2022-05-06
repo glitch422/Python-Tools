@@ -11,7 +11,7 @@ with open(password,'r') as password_list:
             session = ftplib.FTP()
             session.connect(f'{ip}',21)
             session.login(username, p)
-            print(f'Login success!\nUsername: {username} , Password: {password}')
+            print(f'Login success!\nUsername: {username} , Password: {p}')
             print('=====================================================')
             while True:
                 command = input('Please choose the command (dir, pwd, get, put, cwd, or exit to close):\t').lower()
