@@ -16,6 +16,7 @@ with open(email,'r') as userlist:
              print(f'Login failed: {u} {password}')
         else:
              print(f'The login is success: {u} {password}')
+             break
                     
    # GLITCH422
 
