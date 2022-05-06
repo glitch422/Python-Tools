@@ -10,8 +10,8 @@ with open(username, 'r') as user_list:
         try:
             session = ftplib.FTP()
             session.connect(f'{ip}', 21)
-            session.login(username, p)
-            print(f'Login success!\nUsername: {username} , Password: {password}')
+            session.login(u, password)
+            print(f'Login success!\nUsername: {u} , Password: {password}')
             print('=====================================================')
             while True:
                 command = input('Please choose the command (dir, pwd, get, put, cwd, or exit to close):\t').lower()
@@ -62,6 +62,6 @@ with open(username, 'r') as user_list:
                     else:
                         continue
         except ftplib.error_perm:
-            print(f'Wrong Credentials\n Username:{username} , Password:{p}')
+            print(f'Wrong Credentials\n Username:{u} , Password:{password}')
 
   # GLITCH422
