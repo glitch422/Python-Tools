@@ -16,6 +16,7 @@ with open(password, 'r') as passlist:
      print(f'Login failed: {email} {p}')
  else:
      print(f'The login is success: {email} {p}')
+     break
                     
    # GLITCH422
 
